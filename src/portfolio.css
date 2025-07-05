@@ -20,9 +20,15 @@ h1 {
   font-size: 120px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .hero {
@@ -56,4 +62,21 @@ p {
   font-size: 18px;
   border-radius: 4px;
   text-decoration: none;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  padding: 15px 30px;
+  line-height: 27px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
