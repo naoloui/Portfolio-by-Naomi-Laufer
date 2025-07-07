@@ -5,6 +5,28 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 20px;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(30, 27, 27);
+}
+
 h1,
 h2,
 h3,
