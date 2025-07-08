@@ -146,6 +146,10 @@ p {
   padding: 120px 60px;
 }
 
+.content-container {
+  padding: 0 20px;
+}
+
 .content {
   padding: 120px 20px;
   text-align: center;
@@ -176,6 +180,11 @@ p {
 
 .content p {
   font-size: 14px;
+}
+
+.work-content {
+  padding: 60px 20px;
+  margin-top: 0;
 }
 
 footer {
