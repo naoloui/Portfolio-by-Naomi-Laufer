@@ -61,7 +61,7 @@ p {
 .hero {
   background-color: var(--branding-color);
   text-align: center;
-  padding: 180px 20px;
+  padding: 150px 20px;
 }
 
 .hero h1 {
@@ -190,8 +190,6 @@ footer a {
 }
 
 contact-info {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
