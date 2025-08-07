@@ -92,7 +92,8 @@ p {
 }
 
 .btn-branding:hover {
-  color: var(--branding-color);
+  color: white;
+  background-color: var(--secondary-color);
   transition: 150ms ease-in-out;
 }
 
