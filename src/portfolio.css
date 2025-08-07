@@ -201,6 +201,12 @@ p {
   font-family: var(--default-font-family);
 }
 
+.homepage {
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 footer {
   background-color: var(--branding-color);
   padding: 20px 0;
