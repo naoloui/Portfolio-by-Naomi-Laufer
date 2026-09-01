@@ -58,10 +58,6 @@ p {
   line-height: 1.5;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
 
 .hero {
   background-color: var(--branding-color);
