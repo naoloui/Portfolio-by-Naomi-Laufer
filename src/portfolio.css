@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
   transition: 150ms ease-in-out;
 }
 
@@ -57,6 +57,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+
 
 .hero {
   background-color: var(--branding-color);
@@ -92,7 +93,8 @@ p {
 }
 
 .btn-branding:hover {
-  color: var(--branding-color);
+  color: var(--secondary-color);
+  background-color: white;
   transition: 150ms ease-in-out;
 }
 
@@ -107,7 +109,8 @@ p {
 }
 
 .btn-branding-outline:hover {
-  color: var(--branding-color);
+  color: white;
+  background: var(--secondary-color);
   transition: 150ms ease-in-out;
 }
 
